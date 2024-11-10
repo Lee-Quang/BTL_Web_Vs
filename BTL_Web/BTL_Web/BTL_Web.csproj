@@ -1,0 +1,285 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{725F996D-4D53-4E0A-B578-2F015841EA67}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BTL_Web</RootNamespace>
+    <AssemblyName>BTL_Web</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BTL\anh\Banner\Banner1.png" />
+    <Content Include="BTL\anh\Banner\Banner2.png" />
+    <Content Include="BTL\anh\Banner\Banner3.png" />
+    <Content Include="BTL\anh\Icon\hide.png" />
+    <Content Include="BTL\anh\Icon\home.png" />
+    <Content Include="BTL\anh\Icon\left-arrow.png" />
+    <Content Include="BTL\anh\Icon\menu.png" />
+    <Content Include="BTL\anh\Icon\online-shopping.png" />
+    <Content Include="BTL\anh\Icon\pin.png" />
+    <Content Include="BTL\anh\Icon\profile.png" />
+    <Content Include="BTL\anh\Icon\right-arrow.png" />
+    <Content Include="BTL\anh\Icon\search-interface-symbol.png" />
+    <Content Include="BTL\anh\Icon\telephone.png" />
+    <Content Include="BTL\anh\Icon\view.png" />
+    <Content Include="BTL\anh\Logo\Logo.png" />
+    <Content Include="BTL\anh\Logo\logo_footer.png" />
+    <Content Include="BTL\anh\Product\Adidas\AD01.png" />
+    <Content Include="BTL\anh\Product\Adidas\AD02.png" />
+    <Content Include="BTL\anh\Product\Adidas\AD03.png" />
+    <Content Include="BTL\anh\Product\Adidas\AD04.png" />
+    <Content Include="BTL\anh\Product\Adidas\AD05.png" />
+    <Content Include="BTL\anh\Product\Adidas\AD06.png" />
+    <Content Include="BTL\anh\Product\Adidas\AD07.png" />
+    <Content Include="BTL\anh\Product\Adidas\AD08.png" />
+    <Content Include="BTL\anh\Product\MLB\MLB01.png" />
+    <Content Include="BTL\anh\Product\MLB\MLB02.png" />
+    <Content Include="BTL\anh\Product\MLB\MLB03.png" />
+    <Content Include="BTL\anh\Product\MLB\MLB04.png" />
+    <Content Include="BTL\anh\Product\MLB\MLB05.png" />
+    <Content Include="BTL\anh\Product\MLB\MLB06.png" />
+    <Content Include="BTL\anh\Product\MLB\MLB07.png" />
+    <Content Include="BTL\anh\Product\MLB\MLB08.png" />
+    <Content Include="BTL\anh\Product\Nike\N01.png" />
+    <Content Include="BTL\anh\Product\Nike\N02.png" />
+    <Content Include="BTL\anh\Product\Nike\N03.png" />
+    <Content Include="BTL\anh\Product\Nike\N04.png" />
+    <Content Include="BTL\anh\Product\Nike\N05.png" />
+    <Content Include="BTL\anh\Product\Nike\N06.png" />
+    <Content Include="BTL\anh\Product\Nike\N07.png" />
+    <Content Include="BTL\anh\Product\Nike\N08.png" />
+    <Content Include="BTL\ChiTiet\ChiTiet.aspx" />
+    <Content Include="BTL\ChiTiet\ChiTiet.css" />
+    <Content Include="BTL\ChiTiet\ChiTiet.js" />
+    <Content Include="BTL\DangKy\DangKy.aspx" />
+    <Content Include="BTL\DangKy\DangKy.css" />
+    <Content Include="BTL\DangKy\DangKy.js" />
+    <Content Include="BTL\DangNhap\DangNhap.aspx" />
+    <Content Include="BTL\DangNhap\DangNhap.css" />
+    <Content Include="BTL\DangNhap\DangNhap.js" />
+    <Content Include="BTL\DanhSach\DanhSach.aspx" />
+    <Content Include="BTL\DanhSach\DanhSach.css" />
+    <Content Include="BTL\DanhSach\DanhSach.js" />
+    <Content Include="BTL\Footer\Footer.css" />
+    <Content Include="BTL\Footer\Footer.html" />
+    <Content Include="BTL\Footer\Footer.js" />
+    <Content Include="BTL\GioHang\GioHang.aspx" />
+    <Content Include="BTL\GioHang\GioHang.css" />
+    <Content Include="BTL\GioHang\GioHang.js" />
+    <Content Include="BTL\Logout\Logout.aspx" />
+    <Content Include="BTL\Menu\Menu.aspx" />
+    <Content Include="BTL\Menu\Menu.css" />
+    <Content Include="BTL\Menu\Menu.html" />
+    <Content Include="BTL\Menu\Menu.js" />
+    <Content Include="BTL\Them\Them.aspx" />
+    <Content Include="BTL\Them\Them.css" />
+    <Content Include="BTL\Them\Them.js" />
+    <Content Include="BTL\TimKiem\TimKiem.aspx" />
+    <Content Include="BTL\TimKiem\TimKiem.css" />
+    <Content Include="BTL\TimKiem\TimKiem.js" />
+    <Content Include="BTL\TrangChu\TrangChu.aspx" />
+    <Content Include="BTL\TrangChu\TrangChu.css" />
+    <Content Include="BTL\TrangChu\TrangChu.js" />
+    <Content Include="Global.asax" />
+    <Content Include="KiemTra.js" />
+    <Content Include="KiemTra.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BTL\ChiTiet\ChiTiet.aspx.cs">
+      <DependentUpon>ChiTiet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BTL\ChiTiet\ChiTiet.aspx.designer.cs">
+      <DependentUpon>ChiTiet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTL\DangKy\DangKy.aspx.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BTL\DangKy\DangKy.aspx.designer.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTL\DangNhap\DangNhap.aspx.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BTL\DangNhap\DangNhap.aspx.designer.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTL\DanhSach\DanhSach.aspx.cs">
+      <DependentUpon>DanhSach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BTL\DanhSach\DanhSach.aspx.designer.cs">
+      <DependentUpon>DanhSach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTL\GioHang\GioHang.aspx.cs">
+      <DependentUpon>GioHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BTL\GioHang\GioHang.aspx.designer.cs">
+      <DependentUpon>GioHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTL\Logout\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BTL\Logout\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTL\Menu\Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BTL\Menu\Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTL\Them\Them.aspx.cs">
+      <DependentUpon>Them.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BTL\Them\Them.aspx.designer.cs">
+      <DependentUpon>Them.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTL\TimKiem\TimKiem.aspx.cs">
+      <DependentUpon>TimKiem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BTL\TimKiem\TimKiem.aspx.designer.cs">
+      <DependentUpon>TimKiem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTL\TrangChu\TrangChu.aspx.cs">
+      <DependentUpon>TrangChu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BTL\TrangChu\TrangChu.aspx.designer.cs">
+      <DependentUpon>TrangChu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class\Cart.cs" />
+    <Compile Include="Class\KiemTra.cs" />
+    <Compile Include="Class\Product.cs" />
+    <Compile Include="Class\User.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="KiemTra.aspx.cs">
+      <DependentUpon>KiemTra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KiemTra.aspx.designer.cs">
+      <DependentUpon>KiemTra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59891</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:59891/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

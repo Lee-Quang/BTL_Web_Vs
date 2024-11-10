@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+#header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin: 10px 10px;
+}
+    #header .logo {
+        align-content: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+#header .support
+{
+    align-content: center;
+    padding-right: 10px;
+}
+
+#header .support a
+{
+    font-size: 18px;
+}
+
+#header .support a:hover
+{
+    color: blue;
+}
+form h1
+{
+    text-align: center;
+    font-size: 38px;
+}
+/* main */
+
+.main_container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin: 20px 10px;
+}
+.main_aside
+{
+    flex: 1;
+}
+.main_request
+{
+    flex: 1;
+}
+.main_content
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_content .user_box
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    position: relative;
+}
+.main_content .user_box input
+{
+    padding: 10px;
+    font-size: 18px;
+}
+.main_content .user_box img
+{
+    width: 26px;
+    position: absolute;
+    transform: translateY(0);
+    padding: 10px 10px;
+    right: 0;
+    cursor: pointer;
+    z-index: 1;
+    display: none;
+}
+
+.main_content .user_box span
+{
+    position: absolute;
+    align-content: center;
+    padding: 13px 13px;
+    right: 0;
+    cursor: pointer;
+    z-index: 0;
+    display: block;
+    pointer-events: none;
+    color: red;
+}
+
+.main_content .user_box #password:focus +img
+{
+    display: block;
+}
+.main_content .user_box a
+{
+    text-align: right;
+    padding: 5px 0;
+    color: gray;
+    margin-top: 5px;
+}
+.main_content .user_box a:hover
+{
+    color: blue;
+}
+
+.main_content .btn_box 
+{
+    margin: 10px 0;
+}
+
+.main_content .btn_box button
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 0px;
+    background-color: #ee4d2d;
+    color: white;
+    opacity: .7;
+    cursor: pointer;
+}
+.main_content .btn_box button:hover
+{
+    opacity: 1;
+}
+
+.main_content .or 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.main_content .or .or_aside
+{
+    background-color: #dbdbdb;
+    flex: 1;
+    height: 1px;
+    width: 100%;
+}
+
+.main_content .or .or_main
+{
+    color: #ccc;
+    font-size: .75rem;
+    padding: 0 16px;
+    text-transform: uppercase;
+}
+
+.main_content .btn_or
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.main_content .btn_or button
+{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.main_content .dangKy
+{
+    text-align: center;
+    font-size: 18px;
+}
+
+.main_content .dangKy a
+{
+    color: #ee4d2d;
+    font-weight: 500;
+    opacity: .7;
+}
+.main_content .dangKy a:hover
+{
+    color: #ee4d2d;
+    font-weight: 500;
+    opacity: 1;
+}

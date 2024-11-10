@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat"
+}
+
+#header {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+.main_container h1 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+/* setting table */
+.tieuDe_table, .product_list {
+    display: flex;
+    flex-direction: column;
+}
+
+    .tieuDe_table table {
+        font-size: 18px;
+    }
+
+        .main_container .tieuDe_table table, .tieuDe_table table th {
+            /* border: 1px solid black; */
+            border-collapse: collapse;
+        }
+
+.main_container table th:first-child, td:first-child {
+    text-align: left;
+    width: 40%;
+    background-color: transparent;
+}
+
+.main_container table th:nth-child(2), table td:nth-child(2) {
+    text-align: center;
+    width: 18%;
+}
+
+.main_container table th:nth-child(3), table td:nth-child(3) {
+    text-align: center;
+    width: 15%;
+}
+
+.main_container table th:nth-child(4), table td:nth-child(4) {
+    text-align: center;
+    width: 18%;
+}
+
+.main_container table th:nth-child(5), table td:nth-child(5) {
+    text-align: center;
+}
+/* tieu de */
+.main_container .tieuDe_table table th {
+    padding: 10px 0;
+}
+
+.main_container .tieuDe_table table {
+    border: 1px solid gray;
+    box-shadow: 0px 3px 6px rgb(75, 72, 72);
+}
+
+    .main_container .tieuDe_table table th:first-child {
+        padding: 0 10px;
+    }
+/* product */
+.product_list {
+    margin-top: 20px;
+    min-height: 330px;
+    max-height: 1000px;
+    overflow-y: auto;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 3px rgb(75, 72, 72);
+    text-align:center;
+    align-content:center;
+}
+
+    .product_list::-webkit-scrollbar {
+        display: none;
+    }
+
+    .product_list table {
+        margin: 5px 0 10px 0;
+        border-collapse: collapse;
+        border-top: 1px solid gray;
+    }
+
+.main_container .product_list table tr {
+    /* border: 1px solid black; */
+    box-shadow: 0px 2px 5px black;
+}
+
+.product_list .product {
+    display: flex;
+    flex-direction:row;
+}
+
+    .product_list .product .product_img {
+        background-color: transparent;
+        flex: 1;
+    }
+
+    .product_list .product img {
+        width: 150px;
+        margin: 5px;
+        background-color: transparent;
+    }
+
+.product .product_info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.product_info .name {
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding: 5px 0;
+}
+
+.product_info .op {
+    margin: 5px 0;
+}
+
+.op .op_item {
+    font-size: 18px;
+    padding: 5px 0;
+    display: flex;
+}
+
+    .op .op_item label {
+        width: 100px;
+        font-size: 16px;
+        align-content: center;
+        color: gray;
+    }
+
+.product_list table #price_sp {
+    font-size: 20px;
+    color: red;
+}
+
+.product_list table .amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.amount button {
+    padding: 4px 8px;
+    font-size: 14px;
+    align-content: center;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.amount span {
+    font-size: 18px;
+}
+
+.product_list table #tien {
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+}
+
+.product_list table #btn_delete {
+    padding: 3px 6px;
+    cursor: pointer;
+}
+
+.thanhToan {
+    display: flex;
+    border-top: 1px solid gray;
+    padding: 10px 0;
+    margin-top: 15px;
+}
+
+    .thanhToan .aside {
+        flex: 1;
+    }
+
+    .thanhToan .thanhToan_main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+.thanhToan_main .thanhToan_item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+
+.thanhToan_item span {
+    color: red;
+}
+
+.tongTien {
+    border-top: 1px solid gray;
+}
+
+    .tongTien label {
+        color: red;
+    }
+
+    .tongTien span {
+        font-weight: 600;
+    }
+
+/* Info */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+    .info h2 {
+        font-size: 28px;
+        padding: 10px 0;
+        margin-bottom: 10px;
+    }
+
+    .info .info_user {
+        padding: 10px 0;
+    }
+
+        .info .info_user input {
+            padding: 8px;
+            width: 250px;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+    .info .diaChi {
+        margin: 10px 0;
+    }
+
+.diaChi textarea {
+    width: 90%;
+    height: 60px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.pt_thanhToan {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+    .pt_thanhToan label {
+        font-size: 22px;
+        width: 250px;
+    }
+
+    .pt_thanhToan #op_pay {
+        padding: 8px;
+        width: 200px;
+        font-size: 16px;
+    }
+
+.btn {
+    margin: 10px 0;
+    text-align: right;
+}
+
+    .btn #btn_datHang {
+        padding: 15px 50px;
+        font-size: 20px;
+        color: white;
+        background-color: red;
+        border: 0;
+        cursor: pointer;
+    }
+
+        .btn #btn_datHang:hover {
+            box-shadow: 1px 3px 8px black;
+            font-size: 22px;
+            padding: 15px 60px;
+            transition: 0.4s;
+            transform: translate(5px,-5px);
+        }

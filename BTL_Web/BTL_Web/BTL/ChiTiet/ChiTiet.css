@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat"
+}
+li{
+    list-style-type: none;
+}
+#header
+{
+    width: 100%;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 40px;
+}
+.main_container .product_chiTiet
+{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+/* img */
+.main_container .product_chiTiet .img_product
+{
+    flex: 1;
+    text-align: center;
+    align-content: center;
+   
+}
+.main_container .product_chiTiet .img_product img
+{
+    height: 400px;
+    padding: 10px 0;
+}
+
+/* info */
+.product_chiTiet .info_product
+{
+    flex:1;
+}
+
+.info_product 
+{
+    display:  flex;
+    flex-direction: column;
+    margin: 10px 15px;
+}
+
+.info_product .name
+{
+    display: block;
+    padding: 10px 0;
+    font-size: 36px;
+}
+
+.info_product .price 
+{
+    display: block;
+    padding: 10px 0;
+    font-size: 38px;
+    color: red;
+}
+
+.info_product .op_product
+{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+    font-size: 26px;
+    align-items: center;
+}
+.info_product .op_product span
+{
+    width: 150px;
+}
+.info_product .op_product .op_list
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.info_product .mau .list_mau .mau_item
+{
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.info_product .mau .list_mau .mau_item.selected
+{
+    width: 50px;
+    height: 50px;
+    transform: translate(-4px,-3px);
+    border: 2px solid black;
+}
+
+.size .list_size .size_item
+{
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-align: center;
+    align-content: center;
+    font-size: 22px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.size .list_size .size_item.selected
+{
+    width: 50px;
+    height: 50px;
+    transform: translate(-4px,-3px);
+    border: 2px solid black;
+    font-size: 26px;
+    background-color: black;
+    color: white;
+}
+
+.btn
+{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 100%;
+    margin: 10px 0;
+}
+
+.btn .btn_item
+{
+    flex: 1;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn #buy_btn
+{
+    color: white;
+    background-color: red;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+.btn #buy_btn:hover
+{
+    box-shadow: 1px 3px 8px black;
+    font-size: 22px;
+    transition: 0.4s;
+}
+
+.btn #add_btn
+{
+    color: red;
+    border: 2px solid red;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.btn #add_btn:hover
+{
+    opacity: 1;
+    box-shadow: 1px 3px 8px black;
+    font-size: 22px;
+    transition: 0.4s;
+}
+
+.product_goiY
+{
+    flex: 1;
+    margin: 10px 10px;
+    width: 100%;
+}
+
+.product_goiY .product_list
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    width: 100%;
+}
+
+.product_list .product_img
+{
+    text-align: center;
+    align-items: center;
+}
+
+.product_goiY .product_list .product_img img
+{
+    width: 200px;
+}
+.product_list .product_img
+{
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 0.5s ease 0s;
+}
+
+.product_list .product_img:hover
+{
+   box-shadow: 0px 4px 12px black;
+   width: calc(100% +10px);
+   height: calc(100% +10px);
+   transform: translate(0px, 2px);
+}
+@media(max-width:430px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 10px;
+    }
+
+    .main_container .product_chiTiet {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px;
+        width: 90%;
+        /* border: 1px solid black; */
+    }
+
+        .main_container .product_chiTiet .img_product img {
+            height: 250px;
+            padding: 10px 0;
+        }
+
+    .info_product .name {
+        display: block;
+        padding: 10px 0;
+        font-size: 22px;
+    }
+
+    .info_product .price {
+        display: block;
+        padding: 10px 0;
+        font-size: 24px;
+        color: red;
+    }
+
+    .info_product .op_product {
+        display: flex;
+        flex-direction: row;
+        padding: 15px 0;
+        font-size: 18px;
+        align-items: center;
+    }
+
+        .info_product .op_product span {
+            width: 80px;
+        }
+
+    .info_product .mau .list_mau .mau_item {
+        width: 20px;
+        height: 20px;
+        margin: 5px 10px;
+    }
+
+        .info_product .mau .list_mau .mau_item.selected {
+            width: 30px;
+            height: 30px;
+        }
+
+    .size .list_size .size_item {
+        width: 20px;
+        height: 20px;
+        margin: 5px 10px;
+        font-size: 14px;
+    }
+
+        .size .list_size .size_item.selected {
+            width: 30px;
+            height: 30px;
+            transform: translate(-4px,-3px);
+            border: 2px solid black;
+            font-size: 20px;
+            background-color: black;
+            color: white;
+        }
+
+    .btn .btn_item {
+        flex: 1;
+        /* height: 100%; */
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 0;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        height: 100%;
+        margin: 10px 0;
+    }
+
+        .btn #buy_btn {
+            color: white;
+            background-color: red;
+            border: 0;
+            cursor: pointer;
+            /* height: 46px; */
+        }
+
+            .btn #buy_btn:hover {
+                box-shadow: 1px 3px 8px black;
+                font-size: 16px;
+                transition: 0.4s;
+            }
+
+        .btn #add_btn:hover {
+            /* opacity: 1; */
+            /* box-shadow: 1px 3px 8px black; */
+            font-size: 16px;
+            /* transition: 0.4s; */
+        }
+
+    .product_goiY {
+        display: none;
+    }
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../Menu/Menu.css">
+    <script src="../Menu/Menu.js" defer></script>
+</head>
+<body>
+    <head id = "header">
+        <div class="main_container">
+            <div class="logo">
+                <a href="../TrangChu/TrangChu.aspx"><img src="../anh/Logo/Logo.png" alt="Logo"></a>
+            </div>
+            <div class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_item trangChu">
+                            <a href="../TrangChu/TrangChu.aspx">Trang Chủ</a>
+                        </li>
+                        <li class = "nav_item danhSach">
+                            Sản phẩm
+                            <ul class="danhSach_sp">
+                                <li class="danhSach_item"><a href="../DanhSach/DanhSach.aspx?hang=Nike&sort=0">Nike</a></li>
+                                <li class="danhSach_item"><a href="../DanhSach/DanhSach.aspx?hang=MLB&sort=0">MLB</a></li>
+                                <li class="danhSach_item"><a href="../DanhSach/DanhSach.aspx?hang=Adidas&sort=0">Adidas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_item khuyenMai">
+                            Khuyến mãi
+                        </li>
+                        <li class="nav_item" id="tuyChinh_sp">
+                            <a href="../Them/Them.aspx">Tuỳ chỉnh sản phẩm</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="nav_left">
+                <ul class="icon_list">
+                    <li class="icon_item search">
+                        <input type="search" name="search" id="search">
+                        <img src="../anh/Icon/search-interface-symbol.png" alt="search" id="btn_search">
+                    </li>
+                    <li class="icon_item cart">
+                        <img src="../anh/Icon/online-shopping.png" alt="cart">
+                        <span id="amount_cart">0</span>
+                    </li>
+                    <li class="icon_item profile">
+                        <img src="../anh/Icon/profile.png" alt="profile">
+                            <ul class="profile_list">
+                                <li class="profile_item" id="dang_nhap"><a href="../DangNhap/DangNhap.aspx">Đăng nhập</a></li>
+                                <li class="profile_item" id="userName"></li>
+                                <li class="profile_item" id="dang_xuat"><a href="../Logout/Logout.aspx">Đăng xuất</a></li>
+                            </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </head>
+</body>
+</html>

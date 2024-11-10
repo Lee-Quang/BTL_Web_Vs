@@ -1,0 +1,463 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\BTL_Web\\BTL_Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|e:\\btl_web\\btl_web\\btl_web\\kiemtra.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\kiemtra.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|e:\\btl_web\\btl_web\\btl_web\\kiemtra.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\kiemtra.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|e:\\btl_web\\btl_web\\btl_web\\kiemtra.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\kiemtra.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\trangchu\\trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\trangchu\\trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|e:\\btl_web\\btl_web\\btl_web\\class\\kiemtra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\class\\kiemtra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|e:\\btl_web\\btl_web\\btl_web\\btl\\dangky\\dangky.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\dangky\\dangky.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|e:\\btl_web\\btl_web\\btl_web\\btl\\dangky\\dangky.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\dangky\\dangky.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|e:\\btl_web\\btl_web\\btl_web\\btl\\dangky\\dangky.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\dangky\\dangky.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\giohang\\giohang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\giohang\\giohang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\trangchu\\trangchu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\trangchu\\trangchu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\footer\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\footer\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\danhsach\\danhsach.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\danhsach\\danhsach.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\footer\\footer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\footer\\footer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\dangnhap\\dangnhap.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\dangnhap\\dangnhap.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\trangchu\\trangchu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\trangchu\\trangchu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\trangchu\\trangchu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\trangchu\\trangchu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\chitiet\\chitiet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\chitiet\\chitiet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\class\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\class\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\class\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\class\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\class\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\class\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\logout\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\logout\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\chitiet\\chitiet.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\chitiet\\chitiet.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\menu\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\menu\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\timkiem\\timkiem.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\timkiem\\timkiem.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\chitiet\\chitiet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\chitiet\\chitiet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|E:\\BTL_Web\\BTL_Web\\btl_web\\btl\\menu\\menu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{725F996D-4D53-4E0A-B578-2F015841EA67}|BTL_Web\\BTL_Web.csproj|solutionrelative:btl_web\\btl\\menu\\menu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KiemTra.aspx.cs",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\KiemTra.aspx.cs",
+              "RelativeDocumentMoniker": "BTL_Web\\KiemTra.aspx.cs",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\KiemTra.aspx.cs",
+              "RelativeToolTip": "BTL_Web\\KiemTra.aspx.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:51:11.67Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KiemTra.aspx",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\KiemTra.aspx",
+              "RelativeDocumentMoniker": "BTL_Web\\KiemTra.aspx",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\KiemTra.aspx",
+              "RelativeToolTip": "BTL_Web\\KiemTra.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-10T00:43:09.869Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KiemTra.js",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\KiemTra.js",
+              "RelativeDocumentMoniker": "BTL_Web\\KiemTra.js",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\KiemTra.js",
+              "RelativeToolTip": "BTL_Web\\KiemTra.js",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-10T00:51:46.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KiemTra.cs",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\Class\\KiemTra.cs",
+              "RelativeDocumentMoniker": "BTL_Web\\Class\\KiemTra.cs",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\Class\\KiemTra.cs",
+              "RelativeToolTip": "BTL_Web\\Class\\KiemTra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:49:41.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DangKy.aspx",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\DangKy\\DangKy.aspx",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\DangKy\\DangKy.aspx",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\DangKy\\DangKy.aspx",
+              "RelativeToolTip": "BTL_Web\\BTL\\DangKy\\DangKy.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-10T00:41:14.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DangKy.aspx.cs",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\DangKy\\DangKy.aspx.cs",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\DangKy\\DangKy.aspx.cs",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\DangKy\\DangKy.aspx.cs",
+              "RelativeToolTip": "BTL_Web\\BTL\\DangKy\\DangKy.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:41:11.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GioHang.aspx.cs",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\GioHang\\GioHang.aspx.cs",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\GioHang\\GioHang.aspx.cs",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\GioHang\\GioHang.aspx.cs",
+              "RelativeToolTip": "BTL_Web\\BTL\\GioHang\\GioHang.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T13:48:04.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TrangChu.aspx.cs",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\TrangChu\\TrangChu.aspx.cs",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\TrangChu\\TrangChu.aspx.cs",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\TrangChu\\TrangChu.aspx.cs",
+              "RelativeToolTip": "BTL_Web\\BTL\\TrangChu\\TrangChu.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T13:17:38.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DangKy.js",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\DangKy\\DangKy.js",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\DangKy\\DangKy.js",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\DangKy\\DangKy.js",
+              "RelativeToolTip": "BTL_Web\\BTL\\DangKy\\DangKy.js",
+              "ViewState": "AgIAALIAAAAAAAAAAAAYwMwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-08T13:17:27.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TrangChu.js",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\TrangChu\\TrangChu.js",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\TrangChu\\TrangChu.js",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\TrangChu\\TrangChu.js",
+              "RelativeToolTip": "BTL_Web\\BTL\\TrangChu\\TrangChu.js",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAqwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-06T17:36:38.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DangNhap.aspx.cs",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\DangNhap\\DangNhap.aspx.cs",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\DangNhap\\DangNhap.aspx.cs",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\DangNhap\\DangNhap.aspx.cs",
+              "RelativeToolTip": "BTL_Web\\BTL\\DangNhap\\DangNhap.aspx.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:03:31.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChiTiet.aspx.cs",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\ChiTiet\\ChiTiet.aspx.cs",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\ChiTiet\\ChiTiet.aspx.cs",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\ChiTiet\\ChiTiet.aspx.cs",
+              "RelativeToolTip": "BTL_Web\\BTL\\ChiTiet\\ChiTiet.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:41:22.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\Global.asax.cs",
+              "RelativeDocumentMoniker": "BTL_Web\\Global.asax.cs",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\Global.asax.cs",
+              "RelativeToolTip": "BTL_Web\\Global.asax.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:34:35.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\Class\\User.cs",
+              "RelativeDocumentMoniker": "BTL_Web\\Class\\User.cs",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\Class\\User.cs",
+              "RelativeToolTip": "BTL_Web\\Class\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:34:31.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\Class\\Product.cs",
+              "RelativeDocumentMoniker": "BTL_Web\\Class\\Product.cs",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\Class\\Product.cs",
+              "RelativeToolTip": "BTL_Web\\Class\\Product.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:34:21.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\Class\\Cart.cs",
+              "RelativeDocumentMoniker": "BTL_Web\\Class\\Cart.cs",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\Class\\Cart.cs",
+              "RelativeToolTip": "BTL_Web\\Class\\Cart.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:34:16.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Logout.aspx.cs",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\Logout\\Logout.aspx.cs",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\Logout\\Logout.aspx.cs",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\Logout\\Logout.aspx.cs",
+              "RelativeToolTip": "BTL_Web\\BTL\\Logout\\Logout.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:33:32.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChiTiet.js",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\ChiTiet\\ChiTiet.js",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\ChiTiet\\ChiTiet.js",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\ChiTiet\\ChiTiet.js",
+              "RelativeToolTip": "BTL_Web\\BTL\\ChiTiet\\ChiTiet.js",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-06T16:32:03.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Footer.html",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\Footer\\Footer.html",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\Footer\\Footer.html",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\Footer\\Footer.html",
+              "RelativeToolTip": "BTL_Web\\BTL\\Footer\\Footer.html",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-05T13:32:49.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrangChu.aspx",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\TrangChu\\TrangChu.aspx",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\TrangChu\\TrangChu.aspx",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\TrangChu\\TrangChu.aspx",
+              "RelativeToolTip": "BTL_Web\\BTL\\TrangChu\\TrangChu.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-05T13:22:16.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChiTiet.css",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\ChiTiet\\ChiTiet.css",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\ChiTiet\\ChiTiet.css",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\ChiTiet\\ChiTiet.css",
+              "RelativeToolTip": "BTL_Web\\BTL\\ChiTiet\\ChiTiet.css",
+              "ViewState": "AgIAACsBAAAAAAAAAAAAAEcBAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-05T13:22:07.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DanhSach.css",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\DanhSach\\DanhSach.css",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\DanhSach\\DanhSach.css",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\DanhSach\\DanhSach.css",
+              "RelativeToolTip": "BTL_Web\\BTL\\DanhSach\\DanhSach.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-05T13:21:41.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Footer.css",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\Footer\\Footer.css",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\Footer\\Footer.css",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\Footer\\Footer.css",
+              "RelativeToolTip": "BTL_Web\\BTL\\Footer\\Footer.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-05T13:21:21.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TimKiem.css",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\TimKiem\\TimKiem.css",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\TimKiem\\TimKiem.css",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\TimKiem\\TimKiem.css",
+              "RelativeToolTip": "BTL_Web\\BTL\\TimKiem\\TimKiem.css",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAALQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-05T13:21:02.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TrangChu.css",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\TrangChu\\TrangChu.css",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\TrangChu\\TrangChu.css",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\TrangChu\\TrangChu.css",
+              "RelativeToolTip": "BTL_Web\\BTL\\TrangChu\\TrangChu.css",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAAPIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-05T13:20:40.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Menu.css",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\Menu\\Menu.css",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\Menu\\Menu.css",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\Menu\\Menu.css",
+              "RelativeToolTip": "BTL_Web\\BTL\\Menu\\Menu.css",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-05T13:19:15.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Menu.js",
+              "DocumentMoniker": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\Menu\\Menu.js",
+              "RelativeDocumentMoniker": "BTL_Web\\BTL\\Menu\\Menu.js",
+              "ToolTip": "E:\\BTL_Web\\BTL_Web\\BTL_Web\\BTL\\Menu\\Menu.js",
+              "RelativeToolTip": "BTL_Web\\BTL\\Menu\\Menu.js",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAQwHUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-05T13:19:14.412Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

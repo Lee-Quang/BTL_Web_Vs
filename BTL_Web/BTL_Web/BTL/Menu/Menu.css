@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat"
+}
+#header
+{
+    height: 150px;
+}
+#header img
+{
+    width: 30px;
+}
+#header  .main_container
+{
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    padding-right: 10px;
+    background-color: white;
+}
+
+#header li 
+{
+    list-style-type: none;
+   
+}
+#header li a
+{
+    text-decoration: none;
+    color: black;
+}
+/* Logo */
+#header .logo
+{
+    flex: 1.25;
+    text-align: center;
+    align-content: center;
+}
+
+#header .logo img
+{
+    width: 150px;
+    padding: 10px;
+}
+/* main */
+#header .nav
+{
+    flex: 2;
+    align-content: center;
+    display: inline-block;
+    font-size: 22px;  
+}
+
+/* Menu chính */
+#header .nav_list
+{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    /* position: relative; */
+}
+
+#header .nav_list .nav_item
+{
+    z-index: 1;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    background-image: linear-gradient(black,black);
+    background-size: 0 2px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: all 0.6s ease;
+}
+#header .nav_list .nav_item:hover 
+{   
+   background-size: 100% 2px;
+   font-size: 24px;
+}
+
+#header .nav_list .nav_item:hover .danhSach_sp
+{   
+   display: block;
+}
+/* Menu drop */
+#header .nav_list .danhSach_sp
+{   
+    background-color: white;
+    padding: 0 10px;
+    display: none;
+    position:absolute;
+    top:1;
+    padding-top: 5px;
+    margin-top: 10px;
+    width: 100%;
+    left: 0;
+    font-size: 20px;
+    text-align: left;
+    z-index: 1;
+}
+#header .nav_list .danhSach_sp .danhSach_item
+{   
+    padding: 10px 0px;
+    
+}
+#header .nav_list .danhSach_sp .danhSach_item a
+{
+    background-image: linear-gradient(black,black);
+    background-size: 0 2px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: all 0.6s ease;
+}
+#header .nav_list .danhSach_sp .danhSach_item a:hover
+{
+   
+    background-size: 100% 2px;
+    
+}
+/* nav_left */
+#header .nav_left
+{   
+    flex: 1.25;
+    align-content: center;
+}
+
+#header .nav_left .icon_list
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+#header .nav_left .icon_list .icon_item
+{
+    align-content: center;
+}
+
+/* search */
+#header .search 
+{
+   text-align: center;
+   align-content: center;
+   position: relative;
+   flex: 1;
+}
+
+#header .search #search
+{
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    text-align: 18px;
+    padding-right: 10px;
+}
+#header .search #search::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#header .search img
+{
+    position: absolute;
+    right: 0;
+    width: 22px;
+    padding: 4px 8px 8px 8px;
+    cursor: pointer;
+    z-index: 1;
+    /* background-color: white; */
+}
+
+/* cart */
+#header .cart
+{
+    align-content: center;
+    position: relative;
+    flex: 1;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#header .cart img
+{
+    width: 26px;
+    padding: 3px;
+    cursor: pointer;
+}
+#header .cart #amount_cart
+{
+    position: absolute;
+    top: 0;
+}
+/* profile */
+    #header .profile {
+        align-content: center;
+        position: relative;
+        /* text-align: center; */
+/*        border: 1px solid black;*/
+        flex: 1;
+    }
+
+#header .profile img
+{
+    width: 26px;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+#header .profile .profile_list
+{
+    display: none;
+    position: absolute;
+    width: 150%;
+    right: 0;
+    padding: 5px 5px;
+    margin-top: 2px;
+    z-index: 1;
+    margin-right: 5px;
+/*    transform: translateX(-10%);*/
+    background-color: white;
+/*     border: 1px solid black; */
+    text-align: center;
+    /* padding: 0 5px; */
+}
+#header .profile .profile_list .profile_item
+{
+/*    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+     text-overflow: ellipsis;*/
+    padding: 5px 0;
+    
+}
+    #header .profile .profile_list .profile_item a:hover {
+        color :blue;
+    }
+
+#header .profile:hover .profile_list
+{
+    display: block;
+}
+/* Update */
+/* Tuỳ chỉnh sản phẩm */
+
+#header #tuyChinh_sp
+{
+    display: none;
+    cursor:pointer;
+}
+
+#header #dang_xuat{
+    display:none;
+}
+
+#header #userName
+{
+    display:none;
+}
+
+
+#header #dang_nhap
+{
+    display:block;
+}
+@media(max-width:430px) {
+
+    #header {
+        height: 100px;
+    }
+
+        #header .main_container {
+            height: 70px;
+        }
+        /* Logo */
+        #header .logo {
+            display: none;
+            order: 2;
+        }
+
+            #header .logo img {
+                width: 60px;
+            }
+        /* main */
+        #header .nav {
+            flex: 0.6;
+            order: 1;
+            /* border: 1px solid black; */
+            width: 30px;
+            margin: 0 auto;
+        }
+
+            #header .nav input {
+                display: none;
+                visibility: hidden;
+                /* -webkit-appearance: none; */
+            }
+
+            #header .nav .toggle {
+                position: absolute;
+                height: 20px;
+                width: 20px;
+                top: 25px;
+                left: 10px;
+                z-index: 1;
+                cursor: pointer;
+                border-radius: 2px;
+                background-color: red;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            }
+
+        #header .toggle .common {
+            position: absolute;
+            height: 2px;
+            width: 20px;
+            background-color: blue;
+            border-radius: 50px;
+            transition: 0.3s ease;
+        }
+
+        #header .toggle .top {
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        #header .toggle .mid {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        #header .toggle .bottom {
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        #header input:checked ~ .toggle .top {
+            left: -2px;
+            top: 9px;
+            width: 25px;
+            transform: rotate(45deg);
+        }
+
+        #header input:checked ~ .toggle .bottom {
+            left: -2px;
+            top: 9px;
+            width: 25px;
+            transform: rotate(-45deg);
+        }
+
+        #header input:checked ~ .toggle .mid {
+            display: none;
+        }
+
+        #header .nav .nav_mobile {
+            /* width: 100%; */
+            top: 20px;
+            position: fixed;
+            height: 100%;
+            background-color: snow;
+            /* margin-top: 20px; */
+            /* align-content: center; */
+            justify-content: center;
+            /* margin-left: 5px; */
+            /* border: 1px solid black; */
+            transform: translateX(-100%);
+            transition: 0.5s ease;
+        }
+
+            #header .nav .nav_mobile h1 {
+                text-align: right;
+                padding: 0px 0;
+                pointer-events: none;
+                padding-right: 5px;
+                align-content: center;
+                margin-top: 3px;
+                font-size: 16px;
+            }
+
+        #header .nav_list {
+            display: flex;
+            flex-direction: column;
+            /* border: 1px solid black; */
+            margin-top: 15px;
+        }
+
+            #header .nav_list .nav_item {
+                text-align: left;
+                position: relative;
+                padding-left: 5px;
+                padding-top: 10px;
+                font-size: 12px;
+            }
+
+            #header .nav_list .danhSach_sp {
+                border: 1px solid black;
+                z-index: 100;
+                left: 1;
+                right: 0;
+                top: 0;
+                position: absolute;
+                left: 100%;
+                width: 50%;
+            }
+
+            #header .nav_list .nav_item:hover {
+                background-size: 100% 2px;
+                font-size: 14px;
+            }
+
+            #header .nav_list .danhSach_sp {
+                padding-top: 0px;
+                margin-top: 5px;
+                font-size: 12px;
+            }
+
+        #header input:checked ~ .nav_mobile {
+            transform: translateX(0);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+        /* nav_left */
+
+        #header .nav_left {
+            flex: 2;
+            order: 3;
+            margin-left: 10px;
+        }
+
+        #header .search #search {
+            height: 25px;
+            width: 210px;
+            padding: 5px;
+            text-align: 14px;
+            padding-right: 10px;
+        }
+
+        #header .search img {
+            width: 18px;
+            /* background-color: white; */
+        }
+
+        #header .cart {
+            margin-top: 3px;
+        }
+
+            #header .cart img {
+                width: 22px;
+                padding-top: 3px;
+            }
+
+        #header .profile {
+            margin-top: 4px;
+        }
+
+            #header .profile img {
+                width: 22px;
+            }
+
+            #header .profile .profile_list .profile_item {
+                font-size: 12px;
+            }
+}
